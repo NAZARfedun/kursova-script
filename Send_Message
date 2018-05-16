@@ -1,0 +1,5 @@
+d="fedunnazar20122001@gmail.com "
+for i in $d
+do
+ echo "Hello my dear friend"  | mutt -s "subj" $i
+done
